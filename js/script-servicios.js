@@ -10,8 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
     { nombre: "ADADTADORES", imagen: "../galeria/producto (29).jpg" },
     { nombre: "MOUSE", imagen: "../galeria/producto (5).jpg" },
     { nombre: "TECLADO", imagen: "../galeria/producto (6).jpg" },
-    { nombre: "SERVICIO TÉCNICO", imagen: "../galeria/producto (22).jpg" },
-    { nombre: "Y MUCHOS OTROS MAS..."}
+    { nombre: "SERVICIO TÉCNICO", imagen: "../galeria/producto (22).jpg" }
   ];
 
   const contenedor = document.getElementById("serviciosAccordion");
@@ -53,7 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   // Mostrar lightbox al hacer clic en miniatura
-  contenedor.addEventListener("click", e => {
+  contenedor.addEventListener("click", (e) => {
     if (e.target.classList.contains("servicio-miniatura")) {
       lightbox.querySelector("img").src = e.target.src;
       lightbox.style.display = "flex";
@@ -61,7 +60,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   // Ocultar lightbox al hacer clic fuera de la imagen
-  lightbox.addEventListener("click", e => {
+  lightbox.addEventListener("click", (e) => {
     if (e.target === lightbox) {
       lightbox.style.display = "none";
     }
