@@ -1,4 +1,9 @@
 /* Estilos para la pagina nosotros */
+
+h1 {
+  font-weight: bold;
+}
+
 .card-img-top {
   width: 150px;
   height: 150px;
@@ -41,7 +46,7 @@
 /* Estilos para el modo claro */
 body.light-mode {
   background-color: #f8f9fa;
-  color: #3b4753;
+  color: #0d6efd;
 }
 
 body.light-mode .card {
