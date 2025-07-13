@@ -133,3 +133,12 @@ a.instagram-link i:hover {
 a.instagram-link .ig-text:hover {
   color: orange !important;
 }
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #ffffff;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+  font-weight: bold;
+}

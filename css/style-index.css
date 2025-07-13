@@ -12,7 +12,11 @@ body.dark-mode {
 
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link:hover {
-  color: #ffc107;
+  color: #ffffff;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+  font-weight: bold;
 }
 
 .hero-section {
