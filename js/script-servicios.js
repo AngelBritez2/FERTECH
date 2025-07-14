@@ -4,10 +4,10 @@ document.addEventListener("DOMContentLoaded", () => {
   const servicios = [
     { nombre: "AURICULARES", imagen: "../galeria/producto (20).jpg" },
     { nombre: "FUNDAS", imagen: "../galeria/producto (1).jpg" },
-    { nombre: "RELOJ", imagen: "../galeria/producto (30).jpg" },
+    { nombre: "RELOJES", imagen: "../galeria/producto (30).jpg" },
     { nombre: "CARGADORES", imagen: "../galeria/producto (25).jpg" },
     { nombre: "GAMER", imagen: "../galeria/producto (33).jpg" },
-    { nombre: "ADADTADORES", imagen: "../galeria/producto (29).jpg" },
+    { nombre: "ADAPTADORES", imagen: "../galeria/producto (29).jpg" },
     { nombre: "MOUSE", imagen: "../galeria/producto (5).jpg" },
     { nombre: "TECLADO", imagen: "../galeria/producto (6).jpg" },
     { nombre: "SERVICIO TÉCNICO", imagen: "../galeria/producto (22).jpg" }
